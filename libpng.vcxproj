@@ -33,11 +33,11 @@
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\property sheets\MartinK build settings.props" />
+    <Import Project="..\..\property-sheets\build settings.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
@@ -47,7 +47,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <PreBuildEvent>
-      <Command>copy source\scripts\pnglibconf.h.prebuilt source\pnglibconf.h</Command>
+      <Command>copy vanilla\scripts\pnglibconf.h.prebuilt vanilla\pnglibconf.h</Command>
     </PreBuildEvent>
     <ClCompile>
       <AdditionalIncludeDirectories>.;..\zlib\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -59,7 +59,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <PreBuildEvent>
-      <Command>copy source\scripts\pnglibconf.h.prebuilt source\pnglibconf.h</Command>
+      <Command>copy vanilla\scripts\pnglibconf.h.prebuilt vanilla\pnglibconf.h</Command>
     </PreBuildEvent>
     <ClCompile>
       <AdditionalIncludeDirectories>.;..\zlib\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -69,29 +69,29 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source\png.c" />
-    <ClCompile Include="source\pngerror.c" />
-    <ClCompile Include="source\pngget.c" />
-    <ClCompile Include="source\pngmem.c" />
-    <ClCompile Include="source\pngpread.c" />
-    <ClCompile Include="source\pngread.c" />
-    <ClCompile Include="source\pngrio.c" />
-    <ClCompile Include="source\pngrtran.c" />
-    <ClCompile Include="source\pngrutil.c" />
-    <ClCompile Include="source\pngset.c" />
-    <ClCompile Include="source\pngtrans.c" />
-    <ClCompile Include="source\pngwio.c" />
-    <ClCompile Include="source\pngwrite.c" />
-    <ClCompile Include="source\pngwtran.c" />
-    <ClCompile Include="source\pngwutil.c" />
+    <ClCompile Include="vanilla\png.c" />
+    <ClCompile Include="vanilla\pngerror.c" />
+    <ClCompile Include="vanilla\pngget.c" />
+    <ClCompile Include="vanilla\pngmem.c" />
+    <ClCompile Include="vanilla\pngpread.c" />
+    <ClCompile Include="vanilla\pngread.c" />
+    <ClCompile Include="vanilla\pngrio.c" />
+    <ClCompile Include="vanilla\pngrtran.c" />
+    <ClCompile Include="vanilla\pngrutil.c" />
+    <ClCompile Include="vanilla\pngset.c" />
+    <ClCompile Include="vanilla\pngtrans.c" />
+    <ClCompile Include="vanilla\pngwio.c" />
+    <ClCompile Include="vanilla\pngwrite.c" />
+    <ClCompile Include="vanilla\pngwtran.c" />
+    <ClCompile Include="vanilla\pngwutil.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\png.h" />
-    <ClInclude Include="source\pngconf.h" />
-    <ClInclude Include="source\pngpriv.h" />
+    <ClInclude Include="vanilla\png.h" />
+    <ClInclude Include="vanilla\pngconf.h" />
+    <ClInclude Include="vanilla\pngpriv.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="source\scripts\pngwin.rc" />
+    <ResourceCompile Include="vanilla\scripts\pngwin.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

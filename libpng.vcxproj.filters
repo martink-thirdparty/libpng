@@ -15,65 +15,65 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\png.c">
+    <ClCompile Include="vanilla\png.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngerror.c">
+    <ClCompile Include="vanilla\pngerror.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngget.c">
+    <ClCompile Include="vanilla\pngget.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngmem.c">
+    <ClCompile Include="vanilla\pngmem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngpread.c">
+    <ClCompile Include="vanilla\pngpread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngread.c">
+    <ClCompile Include="vanilla\pngread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngrio.c">
+    <ClCompile Include="vanilla\pngrio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngrtran.c">
+    <ClCompile Include="vanilla\pngrtran.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngrutil.c">
+    <ClCompile Include="vanilla\pngrutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngset.c">
+    <ClCompile Include="vanilla\pngset.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngtrans.c">
+    <ClCompile Include="vanilla\pngtrans.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngwio.c">
+    <ClCompile Include="vanilla\pngwio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngwrite.c">
+    <ClCompile Include="vanilla\pngwrite.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngwtran.c">
+    <ClCompile Include="vanilla\pngwtran.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\pngwutil.c">
+    <ClCompile Include="vanilla\pngwutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\png.h">
+    <ClInclude Include="vanilla\png.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\pngconf.h">
+    <ClInclude Include="vanilla\pngconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="source\pngpriv.h">
+    <ClInclude Include="vanilla\pngpriv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="source\scripts\pngwin.rc">
+    <ResourceCompile Include="vanilla\scripts\pngwin.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
