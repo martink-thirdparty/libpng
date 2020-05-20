@@ -46,8 +46,12 @@
   <PropertyGroup>
     <_ProjectFileVersion>11.0.60610.1</_ProjectFileVersion>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'">
     <PreBuildEvent>
       <Command>copy vanilla\scripts\pnglibconf.h.prebuilt vanilla\pnglibconf.h</Command>
