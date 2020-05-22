@@ -90,9 +90,6 @@
     <ClInclude Include="vanilla\pngconf.h" />
     <ClInclude Include="vanilla\pngpriv.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="vanilla\scripts\pngwin.rc" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
